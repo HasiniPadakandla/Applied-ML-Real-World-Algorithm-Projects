@@ -36,17 +36,15 @@ The project showcases:
 The project uses the **Ames Housing Dataset**, a well-known dataset for
 real estate price prediction.
 
-Selected model features:
+Selected model features: 
 
-  Feature         Description
-  --------------- ----------------------------------
-  Gr Liv Area     Above ground living area (sq ft)
-  Bedroom AbvGr   Number of bedrooms
-  Full Bath       Number of full bathrooms
-  Garage Cars     Garage capacity
-  Overall Qual    Overall house quality rating
-  Year Built      Construction year
-  SalePrice       Target variable (house price)
+- Gr Liv Area
+- Bedroom AbvGr
+- Full Bath
+- Garage Cars
+- Overall Qual
+- Year Built
+- SalePrice
 
 ------------------------------------------------------------------------
 
@@ -181,4 +179,4 @@ Estimated House Price: **\$285,000**
 
 **Hasini**
 
-Passionate about building intelligent systems and applying machine learning to real-world problems.
+- Passionate about building intelligent systems and applying machine learning to real-world problems.
