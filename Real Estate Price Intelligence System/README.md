@@ -108,8 +108,8 @@ where users can input property features and get predicted prices.
 
 Clone the repository
 
-    git clone 
-    cd 
+    git clone Real Estate Price Intelligence System
+    cd Real Estate Price Intelligence System
 
 Install dependencies
 
