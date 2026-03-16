@@ -10,7 +10,7 @@ A Machine Learning project that predicts residential property prices using **Lin
 
 ------------------------------------------------------------------------
 
-# Project Overview
+### Project Overview
 
 Real estate price estimation helps buyers, sellers, and investors understand market value. This system analyzes housing attributes such as living area, number of bedrooms, and construction year to estimate property price.
 
@@ -24,18 +24,19 @@ The project showcases:
 
 ------------------------------------------------------------------------
 
-# Features
+### 🎯 Key Features
 
--   House price prediction using Linear Regression
--   Handling missing values in dataset
--   Feature scaling using StandardScaler
--   Model evaluation using regression metrics
--   Interactive **Streamlit dashboard**
--   Data visualization for insights
+- ✔ House price prediction using Linear Regression
+- ✔ Currency conversion (USD / INR)
+- ✔ Locality-based property analysis
+- ✔ Feature importance visualization
+- ✔ Interactive Streamlit dashboard
+- ✔ Real estate price heatmap
+- ✔ Locality price comparison charts
 
 ------------------------------------------------------------------------
 
-# Dataset
+### Dataset
 
 The project uses the **Ames Housing Dataset**, a well-known dataset for
 real estate price prediction.
@@ -52,7 +53,7 @@ Selected model features:
 
 ------------------------------------------------------------------------
 
-# Project Structure
+### Project Structure
 
     real-estate-price-intelligence-system
     │
@@ -81,7 +82,7 @@ Selected model features:
 
 ------------------------------------------------------------------------
 
-# Machine Learning Pipeline
+## Machine Learning Pipeline
 
 ### Data Preprocessing
 
@@ -106,9 +107,22 @@ Evaluation metrics used:
 The trained model is deployed through a **Streamlit web application**
 where users can input property features and get predicted prices.
 
+### 📈 Dashboard Visualizations
+
+The Streamlit dashboard provides multiple insights:
+
+- Average House Price by Locality
+- Shows which neighborhoods have the highest property values.
+- Price Distribution by Locality
+- Displays price variability across neighborhoods.
+- Feature Importance
+- Shows which housing attributes influence price predictions the most.
+- Real Estate Price Heatmap
+- Visualizes locality-based price variations on an interactive map.
+
 ------------------------------------------------------------------------
 
-# Installation
+## Installation
 
 Clone the repository
 
@@ -121,40 +135,21 @@ Install dependencies
 
 ------------------------------------------------------------------------
 
-# Train the Model
+## Train the Model
 
     python src/train_model.py
 
 ------------------------------------------------------------------------
 
-# Evaluate the Model
+## Evaluate the Model
 
     python src/evaluate_model.py
 
 ------------------------------------------------------------------------
 
-# Run the Application
+## Run the Application
 
     streamlit run app/streamlit_app.py
-
-------------------------------------------------------------------------
-
-# Example Prediction
-
-Input:
-
-  Feature           Value
-  ----------------- ------------
-  Living Area       2000 sq ft
-  Bedrooms          3
-  Bathrooms         2
-  Garage Cars       2
-  Overall Quality   7
-  Year Built        2005
-
-Output:
-
-Estimated House Price: **\$285,000**
 
 ------------------------------------------------------------------------
 
