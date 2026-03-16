@@ -1,8 +1,12 @@
 # Real Estate Price Intelligence System
 
-![Python](https://img.shields.io/badge/Python-3.10-blue) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange) ![Streamlit](https://img.shields.io/badge/UI-Streamlit-red) ![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
+![Pandas](https://img.shields.io/badge/Data%20Analysis-Pandas-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-A machine learning project that predicts residential property prices using **Linear Regression** and provides insights into key factors influencing housing values. The project demonstrates a full **end‑to‑end ML pipeline** including preprocessing, training, evaluation, and deployment.
+A Machine Learning project that predicts residential property prices using **Linear Regression** and provides insights into key factors influencing housing values. The project demonstrates a full **end‑to‑end ML pipeline** including preprocessing, training, evaluation, and deployment.
 
 ------------------------------------------------------------------------
 
