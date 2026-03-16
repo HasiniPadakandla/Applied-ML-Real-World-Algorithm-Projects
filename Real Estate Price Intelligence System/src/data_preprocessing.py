@@ -2,15 +2,12 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-
 def load_data(path):
-    df = pd.read_csv(path)
-    return df
+    return pd.read_csv(path)
 
 
 def preprocess_data(df):
 
-    # select important features
     df = df[[
         "Gr Liv Area",
         "Bedroom AbvGr",
@@ -18,11 +15,14 @@ def preprocess_data(df):
         "Garage Cars",
         "Overall Qual",
         "Year Built",
+        "Neighborhood",
         "SalePrice"
     ]]
 
-    # fill missing values
     df = df.fillna(df.median(numeric_only=True))
+
+    # encode locality
+    df = pd.get_dummies(df, columns=["Neighborhood"], drop_first=True)
 
     X = df.drop("SalePrice", axis=1)
     y = df["SalePrice"]
@@ -34,4 +34,4 @@ def preprocess_data(df):
         X_scaled, y, test_size=0.2, random_state=42
     )
 
-    return X_train, X_test, y_train, y_test, scaler
+    return X_train, X_test, y_train, y_test, scaler, X.columns
